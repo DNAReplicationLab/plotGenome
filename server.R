@@ -29,11 +29,9 @@ function(input,output,session) {
 			order=integer(),
 			name.rep=character(),
 			name.nonRep=character(),
-			geom=character(),
 			raw=logical(),
 			smooth=logical(),
 			color=character(),
-#~ 			ratioFactor=numeric(),
 			stringsAsFactors=F	
 		),
 		stats = NULL,
